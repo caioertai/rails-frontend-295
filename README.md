@@ -1,24 +1,17 @@
-# README
+# Rails Front End Lecture
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A lecture done at Le Wagon Melbourne batch#295.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Usage
+Onboarding:
+```bash
+  cd ~/code/<your_github_nickname>
+  git clone git@github.com:caioertai/rails-frontend-295.git
+  cd rails-frontend-295
+  bundle install
+  yarn install
+```
+Running the app:
+```bash
+  rails s # go to http://localhost:3000/
+```
